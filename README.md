@@ -1,4 +1,12 @@
 # restaurant-css-framework
 Création d'un site web fictif pour un restaurant avec des outils tels que SASS &amp; Bootstrap.
 
-NAV V3.0 : Burger en petits écrans et menu traditionnel en écran moyen et grand.
+* Navigation :
+  * V1.0 : Responsive et simple : le menu se sépare en 2 lignes pour les petits écrans.
+      > Branche nav  
+
+  * V2.0 : Hamburger en haut à gauche avec menu déroulant vertical.
+      > Branche nav2
+
+  * V3.0 : Hamburger pour petits écrans et menu large sur écrans moyens et larges.
+      > Branche nav 3
