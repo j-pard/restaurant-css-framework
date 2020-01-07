@@ -7,10 +7,11 @@
 }
 
 body {
-    background-color: #444;  
+    background-color: #888;  
 }
 
-nav {
+#nav-large {
+      display: none;
       background: transparent;
 
       ul {
@@ -33,5 +34,42 @@ nav {
                         }
                   }
             }
+      }
+}
+
+#nav-small {
+      button {
+            
+            i {
+                  color: #fff;
+                  padding: 8px 12px;
+                  border: 2px solid #fff;
+                  border-radius: 10px;
+                  font-size: 28px;
+            }
+      }
+
+      div {
+            ul {
+                  li {
+                        margin-left: 20px;
+                        a {
+                              color: #fff;
+                              font-size: 24px;
+                              
+                        }
+                  }
+            }
+      }
+}
+
+@media #{$medium-down} {
+
+      #nav-small {
+            display: none;
+      }
+
+      #nav-large {
+            display: block;
       }
 }

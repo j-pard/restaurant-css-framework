@@ -12,23 +12,43 @@ body {
   box-sizing: content-box; }
 
 body {
-  background-color: #444; }
+  background-color: #888; }
 
-nav {
+#nav-large {
+  display: none;
   background: transparent; }
-  nav ul {
+  #nav-large ul {
     margin-top: 20px; }
-    nav ul li {
+    #nav-large ul li {
       box-sizing: border-box;
       transition: all .3s; }
-      nav ul li a {
+      #nav-large ul li a {
         color: #fff;
         font-size: 20px;
         transition: all .3s; }
-      nav ul li:hover {
+      #nav-large ul li:hover {
         transform: scale(1.3); }
-        nav ul li:hover a {
+        #nav-large ul li:hover a {
           text-decoration: none;
           color: #fff; }
+
+#nav-small button i {
+  color: #fff;
+  padding: 8px 12px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-size: 28px; }
+#nav-small div ul li {
+  margin-left: 20px; }
+  #nav-small div ul li a {
+    color: #fff;
+    font-size: 24px; }
+
+@media only screen and (min-width: 768px) {
+  #nav-small {
+    display: none; }
+
+  #nav-large {
+    display: block; } }
 
 /*# sourceMappingURL=style-nav.css.map */
