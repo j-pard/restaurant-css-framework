@@ -10,16 +10,62 @@
       <meta name="organization" content="BeCode">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="./assets/css/style-home.css">
+      <link rel="stylesheet" href="./assets/css/style-nav.css">
+      <link rel="stylesheet" href="./assets/css/style-footer.css">
       <script src="https://kit.fontawesome.com/126bbe9047.js" crossorigin="anonymous"></script>
       <title>Restaurant BeAsia</title>
 </head>
 
 <body class="w100">
-      <nav>
-            <!-- MENU DE NAVIGATION -->
+
+      <nav id="nav-small" class="navbar">
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+              aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><i
+                  class="fas fa-bars fa"></i></button>
+          
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          
+                  <!-- Links -->
+                  <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Promotions & News</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Carte</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Nos restaurants</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">Contactez-nous</a>
+                        </li>
+                  </ul>
+          
+            </div>
+          
       </nav>
 
       <header class="jumbotron container-fluid p-0">
+            <nav id="nav-large" class="w100 p-0">
+                  <ul class="container-fluid navbar list-unstyled text-center p-0 p-sm-3">
+                        <li class="col-3 col-md-2"><a class="p-2" href="index.html">Accueil</a></li>
+                        <li class="col-3 col-md-2"><a class="p-2"href=" promo.html">News</a></li>
+                        <li class="col-3 col-md-2"><a class="p-2" href="menu.html">Carte</a></li>
+                        <li class="col-3 col-md-2"><a class="p-2" href="photos.html">Photos</a></li>
+                        <li class="col-8 col-md-2 mt-3 mt-md-0"><a class="p-2" href="restaurants.html">Nos restaurants</a></li>
+                        <li class="col-4 col-md-2 mt-3 mt-md-0"><a class="p-2" href="contact.html">Contact</a></li>
+                  </ul>
+            </nav>
+
             <div class="row col-12 p-0">
                   <div class="col-1 p-0"></div>
                   <h1 class="col-10 text-center p-0 my-auto">Restaurant <strong class="text-warning">BeAsia</strong></h1>
@@ -48,8 +94,10 @@
                               <div class="col-0 col-sm-2 p-0"></div>
                         </div>
                   </aside>
+                  <div class="w-100 text-center">
+                        <i class="fas fa-sort-down"></i>
+                  </div>
             </div>
-            <i class="fas fa-sort-down"></i>
       </header>
       
       <main>
@@ -118,8 +166,39 @@
             </aside>
       </main>
 
-      <footer>
-            <!-- PIED DE PAGE -->
+      <footer class="container-fluid text-center m-0 p-4">
+
+            <div class="row">
+                  <aside class="col-6 col-md-3 p-0">
+                        <ul class="col-12 p-0 list-group text-left">
+                              <li><h4 class="text-warning">BeAsia Bruxelles</h4></li>
+                              <li>Cantersteen 10, 1000 Bruxelles</li>
+                              <li>0487 44 80 49</li>
+                        </ul>
+                  </aside>
+
+                  <article class="col-12 col-md-6 footer-changer p-0">
+                        <div>
+                              <ul class="nav justify-content-center">
+                                    <li class="col-3"><a href="https://twitter.com/BecodeOrg" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="col-3"><a href="https://www.facebook.com/becode.org/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="col-3"><a href="https://www.instagram.com/becodeorg/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                              </ul>
+                        </div>
+
+                        <button class="col-4 col-sm-5 btn btn-warning m-3">Réserver</button>
+                        <button class="col-4 col-sm-5 btn btn-warning m-3">Contactez-nous</button>
+                  </article>
+
+                  <aside class="col-6 col-md-3 p-0">
+                        <ul class="col-12 p-0 list-group text-right">
+                              <li><h4 class="text-warning">BeAsia Charleroi</h4></li>
+                              <li>Square des Martyrs, 6000 Charleroi</li>
+                              <li>0487 44 80 49</li>
+                        </ul>
+                  </aside>
+            </div>
+
       </footer>
 
 

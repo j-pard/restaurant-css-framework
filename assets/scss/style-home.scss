@@ -1,5 +1,4 @@
 @import "_reset.scss";
-@import "_mixins.scss";
 @import "_responsive.scss";
 
 $warning : #f0ad4e;
@@ -40,10 +39,6 @@ body {
             i {
                   color: $warning;
                   font-size: 80px;
-                  position: relative;
-                  left: 50%;
-                  top: -50px;
-                  transform: translateX(-50%);
             }
 
     }
