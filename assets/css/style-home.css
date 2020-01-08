@@ -31,6 +31,13 @@ body {
       font-size: 20px;
       color: #fff;
       font-style: italic; }
+    body header i {
+      color: #f0ad4e;
+      font-size: 80px;
+      position: relative;
+      left: 50%;
+      top: -50px;
+      transform: translateX(-50%); }
   body main section div {
     background-color: rgba(255, 255, 255, 0.8);
     color: #000;
