@@ -1,0 +1,28 @@
+@import "_reset.scss";
+@import "_mixins.scss";
+@import "_responsive.scss";
+
+body {
+    background-color:black;
+}
+.menu{
+    display:flex ;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+h2{
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: #ffc107;
+    border: solid 3px #ffc107;
+    border-radius: 20px;
+}
+nav{
+    border-radius: 20px;
+
+}
