@@ -90,8 +90,20 @@ body {
 
                             p {
                                   padding-top: 15px;
+                                  text-shadow: 1px 1px black;
                             }
                       }
+
+                      article.news {
+                            background-image: url("../img/news.jpg");
+                            background-size: cover;
+                      }
+
+                      article.promotions {
+                        background-image: url("../img/prom.jpg");
+                        background-size: cover;
+                        background-position: center;
+                  }
                 }
           }
 

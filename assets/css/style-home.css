@@ -65,6 +65,14 @@ body {
         flex-direction: column;
         justify-content: center; }
         body main aside div article p {
-          padding-top: 15px; }
+          padding-top: 15px;
+          text-shadow: 1px 1px black; }
+      body main aside div article.news {
+        background-image: url("../img/news.jpg");
+        background-size: cover; }
+      body main aside div article.promotions {
+        background-image: url("../img/prom.jpg");
+        background-size: cover;
+        background-position: center; }
 
 /*# sourceMappingURL=style-home.css.map */
