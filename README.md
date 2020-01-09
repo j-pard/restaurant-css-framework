@@ -35,14 +35,6 @@ Christine: arriver à ne faire qu'une seule chose à la fois, ce qui provoque un
 Jonathan m'a alors conseillé de me concentrer uniquement sur un problème et de le résoudre avant de passer au suivant.
 J'ai appliqué la méthode et cela a été de suite plus efficace.
 
-=======
-* Navigation :
-  * V1.0 : Responsive et simple : le menu se sépare en 2 lignes pour les petits écrans.
-      > Branche nav  
-
-  * V2.0 : Hamburger en haut à gauche avec menu déroulant vertical.
-      > Branche nav2
-
-  * V3.0 : Hamburger pour petits écrans et menu large sur écrans moyens et larges.
-      > Branche nav 3
-
+Jonathan: utilisation générale de Bootstrap que je trouve beaucoup moins intuitive que du SASS avec des techno telles que grid ou flex.  
+Difficultés à gérer les différences de niveaux importantes et les différences de compréhension.  
+Certaines instructions de base que j'ai donné n'étaient probablement pas assez claires et n'ont donc pas été bien respectées, rendant le travail plus fastidieux.
