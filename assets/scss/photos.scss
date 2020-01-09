@@ -1,0 +1,42 @@
+
+.photos-body {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    main {
+        margin: 150px 050px 0;
+        min-height: 55vh;
+
+        section {
+
+            figure {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            
+                img {
+                    width: auto;
+                    max-height: 300px;
+                }
+            }
+        }
+    
+        #pagination {
+            button {
+                margin: 10px;
+            }
+        }
+    
+        // ETAT PAR DEFAUT
+        #pag1 {
+            display: block;
+        }
+    
+        #pag2, #pag3, #pag4 {
+            display: none;
+        }
+    }
+}
+

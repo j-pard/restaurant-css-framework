@@ -1,0 +1,23 @@
+.photos-body {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  .photos-body main {
+    margin: 150px 050px 0;
+    min-height: 55vh; }
+    .photos-body main section figure {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .photos-body main section figure img {
+        width: auto;
+        max-height: 300px; }
+    .photos-body main #pagination button {
+      margin: 10px; }
+    .photos-body main #pag1 {
+      display: block; }
+    .photos-body main #pag2, .photos-body main #pag3, .photos-body main #pag4 {
+      display: none; }
+
+/*# sourceMappingURL=photos.css.map */
