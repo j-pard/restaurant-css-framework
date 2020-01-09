@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  outline: none; }
+  outline: none;
+  box-sizing: content-box; }
 
 body {
   overflow-x: hidden; }
