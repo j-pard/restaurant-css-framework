@@ -1,0 +1,14 @@
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+}
+figure img {
+  width: auto;
+  height: 100%;
+  max-height: 300px;
+}
+
+/*# sourceMappingURL=photos.css.map */
