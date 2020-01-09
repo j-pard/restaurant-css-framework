@@ -11,7 +11,7 @@ Le projet a été cré par :
 # Ce que c'est
 
 Projet : Un site en bootstrap 
-lien des instruction (https://github.com/becodeorg/CRL-Keller-1-18/tree/master/Projects/2.BootstrapProject)
+lien des instructions (https://github.com/becodeorg/CRL-Keller-1-18/tree/master/Projects/2.BootstrapProject)
 
 # quand ?
 
@@ -27,6 +27,11 @@ le project réalisé est un site réalisé avec boostrap.
 
 Html & CSS
 
-# difficulté rencontré
+# difficultés rencontrées 
 
 Geoffrey : gardé le ratio des images pour rendre la gallerie responsive avec boostrap.
+
+Christine: arriver à ne faire qu'une seule chose à la fois, ce qui provoque une perte de temps.
+Jonathan m'a alors conseillé de me concentrer uniquement sur un problème et de le résoudre avant de passer au suivant.
+J'ai appliqué la méthode et cela a été de suite plus efficace.
+
