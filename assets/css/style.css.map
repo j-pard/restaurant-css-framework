@@ -4,7 +4,6 @@
     "sources": [
         "../scss/style.scss",
         "../scss/_reset.scss",
-        "../scss/_mixins.scss",
         "../scss/_responsive.scss"
     ],
     "names": [],
