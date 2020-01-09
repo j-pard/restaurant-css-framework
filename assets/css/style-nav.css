@@ -10,7 +10,7 @@ body {
 /*# sourceMappingURL=style.css.map */
 #nav-large {
   display: none;
-  background: transparent; }
+  background-color: black; }
   #nav-large ul li {
     box-sizing: border-box;
     transition: all .3s; }
