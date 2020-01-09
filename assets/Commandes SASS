@@ -1,0 +1,11 @@
+sass --watch ./assets/scss/style.scss:././assets/css/style.css
+
+sass --watch ./assets/scss/style-home.scss:././assets/css/style-home.css
+
+sass --watch ./assets/scss/style-nav.scss:././assets/css/style-nav.css
+
+sass --watch ./assets/scss/style-footer.scss:././assets/css/style-footer.css
+
+sass --watch ./assets/scss/restaurants.scss:././assets/css/restaurants.css
+
+sass --watch ./assets/scss/contact.scss:././assets/css/contact.css

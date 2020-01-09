@@ -1,0 +1,41 @@
+@import "_reset.scss";
+@import "_responsive.scss";
+
+body.contact-body {
+    background-color: black;
+    color:white;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    main {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .cotes{
+            border: solid 3px #f0ad4e;
+            border-radius: 15px;
+            margin-top: 30px;
+            background-color: rgba($color: #000000, $alpha: 0.8);
+        }
+
+        .adresse{
+            border: solid 3px #f0ad4e;
+            border-radius: 15px;
+            line-height: 0.95em;
+        }
+        .btn{
+            background-color: #f0ad4e;
+        }
+    }
+     
+}
+
+@media #{$medium-down} {
+    body.contact-body {
+        main {
+            margin-top: 0;
+        }
+    }
+}
