@@ -11,3 +11,5 @@ sass --watch ./assets/scss/restaurants.scss:./assets/css/restaurants.css
 sass --watch ./assets/scss/contact.scss:./assets/css/contact.css
 
 sass --watch ./assets/scss/photos.scss:./assets/css/photos.css
+
+sass --watch ./assets/scss/style-menu.scss:./assets/css/style-menu.css

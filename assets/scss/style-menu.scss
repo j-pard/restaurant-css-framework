@@ -35,7 +35,7 @@
             color: white;
             font-style: italic;
             padding: 5px 12px;
-            width: max-content;
+            
             margin: 0 auto 30px auto;
             border-radius: 50px;
         }
@@ -61,6 +61,12 @@
         justify-content: space-around;
 
     }
+}
+
+.divers{
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: #ffc107;
 }
 
 @media #{$medium-down} {
