@@ -9,10 +9,12 @@
     .photos-body main section figure {
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      width: 100%; }
       .photos-body main section figure img {
-        width: auto;
-        max-height: 300px; }
+        margin: 0 auto;
+        height: 300px;
+        width: 300px; }
     .photos-body main #pagination button {
       margin: 10px; }
     .photos-body main #pag1 {
