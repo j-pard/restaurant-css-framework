@@ -6,7 +6,8 @@ figure {
 }
 figure img {
   width: auto;
-  max-height: 300px;
+  height: 300px;
+  width: 300px;
 }
 
 /*# sourceMappingURL=photos.css.map */
