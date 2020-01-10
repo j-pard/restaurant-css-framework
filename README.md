@@ -1,33 +1,31 @@
-# restaurant-css-framework
+# BeAsia - Restaurant asiatique en Bootstrap
 Création d'un site web fictif pour un restaurant avec des outils tels que SASS &amp; Bootstrap.
 
-# créateur
+## Créateurs :
 
 Le projet a été cré par :
-    Geoffrey Rodriguez (https://github.com/Geoffrey-becode)
     Johnathan Pardons (https://github.com/j-pard)
     Christine Sautelet (https://github.com/ChristineSautelet)
+    Geoffrey Rodriguez (https://github.com/Geoffrey-becode)
 
-# Ce que c'est
+## Le projet :
 
-Projet : Un site en bootstrap 
+Projet : Un site de restaurant fictif avec Bootstrap.
 lien des instructions (https://github.com/becodeorg/CRL-Keller-1-18/tree/master/Projects/2.BootstrapProject)
 
-# quand ?
+## Dates :
 
-project réalisé entre le 7 & 9 Janvier 2020 
+Projet réalisé entre le 7 & 9 Janvier 2020. 
 
-# où ?
+## Où ?
 
 Formation Becode Charleroi 
 
-# info langue
+## Languages :
 
-le project réalisé est un site réalisé avec boostrap.
+Html5, CSS3, SASS, Bootstrap4 & JS.
 
-Html & CSS
-
-# difficultés rencontrées 
+## Difficultés rencontrées :
 
 Geoffrey : gardé le ratio des images pour rendre la gallerie responsive avec boostrap.
 
